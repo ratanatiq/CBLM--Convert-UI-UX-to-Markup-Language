@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ body {
+line-height: 1.5;
+font-family: Arial, sans-serif;
+margin-left: 100px;
+}
+ul,ol {list-style: none; }
+.menu {
+display: flex;
+  background-color: #333;
+
+}
+.menu li {
+  position: relative;
+}
+.menu  a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+}
+.menu li:hover {
+  background-color: #555;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  top: 100%; 
+  left: 0;
+}
+.menu li:hover .dropdown {
+  display: block;
+}
+
+</style>
+
+</head>
+<body>
+  <nav>
+  <ul class="menu">
+    <li><a href="#">Home</a></li>
+    
+    <li>
+      <a href="#">Services</a>
+      <ul class="dropdown">
+        <li><a href="#">Web Design</a></li>
+        <li><a href="#">Development</a></li>
+        <li><a href="#">SEO</a></li>
+      </ul>
+    </li>
+    
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+</body>
+</html>
