@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mega Menu</title>
+  <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      line-height: 1.5;
+      font-family: Arial, sans-serif;
+      margin-left: 100px;
+    }
+
+    ul,ol {
+      list-style: none;
+    }
+    .menu>ul {
+      display: flex;
+       background:rgb(43, 41, 41);
+    }
+    .menu ul li{
+    position: relative;
+        }
+.menu ul ul{
+    position: absolute;
+    background-color: #444;
+    display:none;
+    min-width:220px;
+}
+.menu ul li a{
+    color:white;
+    text-decoration:none;
+    padding:15px 20px;
+    display:block;
+    
+}
+.menu ul li:hover{
+    background:crimson;
+}
+
+/* Layer 2 */
+  .menu ul > ul{
+        top:100%;
+        left:0;
+ }
+
+/* Apply on  Layer 2 3 4 5 */
+.menu ul li:hover > ul{
+    display:block;
+}
+
+/* Layer 3 4 5 */
+.menu ul ul ul{
+    top:0;
+    left:100%;
+}
+.menu ul li a i{
+    margin-left:5px;
+    font-size:12px;
+}
+
+  </style>
+</head>
+
+<body>
+  <nav class="menu">
+    <ul>
+      <li>
+        <a href="#">
+          Home
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Services
+          <i class="fas fa-chevron-down"></i>
+        </a>
+
+        <ul>
+          <li>
+            <a href="#">Web Design</a>
+          </li>
+          <li>
+            <a href="#">Web Development</a>
+
+            <ul>
+               <li>
+                <a href="#">Web Designer</a>
+              </li>
+              <li>
+                <a href="#">Web Developer</a>
+
+                <ul>
+                  <li>
+                    <a href="#">UI Designer</a>
+                  </li>
+                  <li>
+                    <a href="#">Logo Designer</a>
+
+                    <ul>
+                      <li>
+                        <a href="#">UX Designer</a>
+                      </li>
+                      <li>
+                        <a href="#">Full Stack Developer</a>
+                      </li>
+                    </ul>
+
+                  </li>
+                </ul>
+
+              </li>
+            </ul>
+
+          </li>
+        </ul>
+
+      </li>
+      <li><a href="#">About Us
+        <i class="fas fa-chevron-down"></i>
+      </a>
+      </li>
+      <li><a href="#">Gallery
+<i class="fas fa-chevron-down"></i>
+      </a>
+      </li>
+      <li><a href="#">Contact Us
+<i class="fas fa-chevron-down"></i>
+      </a>
+      </li>
+      <li><a href="#">FAQ
+<i class="fas fa-chevron-down"></i>
+      </a>
+      </li>
+    </ul>
+  </nav>
+</body>
+
+</html>
