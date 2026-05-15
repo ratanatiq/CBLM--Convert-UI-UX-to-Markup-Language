@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  font-size: 16px;
+}
+
+.container {
+display: grid;
+height:500px;
+grid-template-columns: repeat(2, 100px); 
+grid-template-rows: repeat(2, 100px); 
+    place-content: center; 
+
+
+ background-color: #89C9E0;
+  gap: 10px;
+
+}
+
+.container div {
+  border: 1px solid #fabfbf;
+  
+}
+
+#item1 {
+ 
+  background-color: #4DCCBD;
+
+
+}
+
+#item2 {
+
+  background-color: #94B1B5;
+}
+
+#item3 {
+
+  background-color: #507D82;
+}
+
+#item4 {
+
+  background-color: #2374AB;
+}
+
+#item5 {
+grid-area: section ; 
+  background-color: #C2EDCE;
+
+}
+
+#item6 {
+grid-area: article ;
+  background-color: #A57D9B;
+}
+
+#item7 {
+grid-area: footer ; 
+  background-color: #E8D6D6;
+
+}
+
+#item8 {
+
+
+  background-color: #DBE2DC;
+}
+
+#item9 {
+
+
+  background-color: #507D82;
+}
