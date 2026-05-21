@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <title>Responsive Website Layout</title>
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+     <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+     <!-- =========================
+     TOPBAR
+========================= -->
+
+     <div class="topbar">
+
+          <div class="container topbar-content">
+
+               <div class="top-left">
+                    📧 info@example.com
+               </div>
+
+               <div class="top-middle">
+
+                    <ul class="top-menu">
+                         <li><a href="#">Office Category</a></li>
+                         <li>
+
+                              <a href="#">
+                                   Quick Links
+                                   <i class="fas fa-chevron-down"></i>
+                              </a>
+
+                              <ul class="dropdown">
+
+                                   <li><a href="#">Notice</a></li>
+
+                                   <li><a href="#">Admission</a></li>
+
+                                   <li><a href="#">Result</a></li>
+
+                                   <li><a href="#">Gallery</a></li>
+
+                              </ul>
+
+                         </li>
+                         <li><a href="#">Institute Category</a></li>
+                    </ul>
+
+               </div>
+
+               <div class="top-right">
+
+                    <span class="top-phone">
+                         📞 +880 1234-567890
+                    </span>
+
+                    <!-- SEARCH BOX -->
+                    <div class="top-search">
+
+                         <input type="text" placeholder="Search...">
+
+                         <i class="fas fa-search"></i>
+
+                    </div>
+                    <!-- <div class="top-search">
+
+          <input type="text" placeholder="Search...">
+
+          <button>
+               <i class="fas fa-search"></i>
+          </button>
+
+     </div> -->
+
+                    <!-- LOGIN BUTTON -->
+
+                    <a href="login.html" class="login-btn">
+
+                         <i class="fas fa-user"></i>
+                         Login
+
+                    </a>
+
+               </div>
+
+          </div>
+
+     </div>
+
+     <!-- =========================
+     HEADER
+========================= -->
+
+     <header>
+
+          <div class="container header-content">
+
+               <!-- LOGO -->
+
+               <div class="logo">
+                    MyWebsite
+               </div>
+
+               <!-- MOBILE BUTTON -->
+
+               <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+               <label for="menu-toggle" class="hamburger">
+
+                    <i class="fas fa-bars"></i>
+
+               </label>
+
+               <!-- NAVIGATION -->
+
+               <nav>
+
+                    <ul class="main-menu">
+
+                         <li><a href="#">Home</a></li>
+
+                         <li class="mega-parent">
+
+                              <a href="#">
+                                   Services
+                                   <i class="fas fa-chevron-down"></i>
+                              </a>
+
+                              <!-- MEGA MENU -->
+
+                              <div class="mega-menu">
+
+                                   <div class="mega-column">
+
+                                        <h3>Web Design</h3>
+
+                                        <ul>
+
+                                             <li><a href="#">HTML</a></li>
+
+                                             <li><a href="#">CSS</a></li>
+
+                                             <li><a href="#">Flexbox</a></li>
+
+                                             <li><a href="#">Grid Layout</a></li>
+
+                                        </ul>
+
+                                   </div>
+
+                                   <div class="mega-column">
+
+                                        <h3>Development</h3>
+
+                                        <ul>
+
+                                             <li><a href="#">JavaScript</a></li>
+
+                                             <li><a href="#">React</a></li>
+
+                                             <li><a href="#">PHP</a></li>
+
+                                             <li><a href="#">Laravel</a></li>
+
+                                        </ul>
+
+                                   </div>
+
+                                   <div class="mega-column">
+
+                                        <h3>Marketing</h3>
+
+                                        <ul>
+
+                                             <li><a href="#">SEO</a></li>
+
+                                             <li><a href="#">Facebook Ads</a></li>
+
+                                             <li><a href="#">YouTube</a></li>
+
+                                             <li><a href="#">Content Writing</a></li>
+
+                                        </ul>
+
+                                   </div>
+
+                                   <div class="mega-column">
+
+                                        <h3>Support</h3>
+
+                                        <ul>
+
+                                             <li><a href="#">Documentation</a></li>
+
+                                             <li><a href="#">Tutorials</a></li>
+
+                                             <li><a href="#">Help Center</a></li>
+
+                                             <li><a href="#">Contact Us</a></li>
+
+                                        </ul>
+
+                                   </div>
+
+                              </div>
+
+                         </li>
+
+                         <li><a href="#">Portfolio</a></li>
+
+                         <li><a href="#">Blog</a></li>
+
+                         <li><a href="#">Contact</a></li>
+
+                    </ul>
+
+               </nav>
+
+          </div>
+
+     </header>
+
+     <!-- =========================
+     HERO SECTION
+========================= -->
+
+     <section class="hero">
+
+          <div class="hero-content">
+
+               <h1>
+                    Modern Web Design & Development
+               </h1>
+
+               <p>
+                    Learn HTML, CSS, Flexbox, Grid and
+                    Responsive Web Design step by step.
+               </p>
+
+               <a href="#" class="hero-btn">
+
+                    Get Started
+
+               </a>
+
+          </div>
+
+     </section>
+
+     <!-- =========================
+MAIN CONTENT WITH SIDEBAR
+========================= -->
+
+     <div class="main-layout container">
+
+          <!-- LEFT CONTENT -->
+
+          <div class="main-content">
+
+
+               <!-- =========================
+SERVICES SECTION
+========================= -->
+
+               <section class="services">
+
+                    <div class="container">
+
+                         <div class="section-title">
+
+                              <h2>Our Services</h2>
+
+                              <p>
+                                   We provide modern web solutions for your business.
+                              </p>
+
+                         </div>
+
+                         <div class="services-wrapper">
+
+                              <div class="service-card">
+
+                                   <i class="fas fa-code"></i>
+
+                                   <h3>Web Development</h3>
+
+                                   <p>
+                                        Professional responsive website development services.
+                                   </p>
+
+                              </div>
+
+                              <div class="service-card">
+
+                                   <i class="fas fa-paint-brush"></i>
+
+                                   <h3>Web Design</h3>
+
+                                   <p>
+                                        Creative and modern UI/UX website design solutions.
+                                   </p>
+
+                              </div>
+
+                              <div class="service-card">
+
+                                   <i class="fas fa-mobile-alt"></i>
+
+                                   <h3>Responsive Design</h3>
+
+                                   <p>
+                                        Fully mobile-friendly responsive website layouts.
+                                   </p>
+
+                              </div>
+
+                         </div>
+
+                    </div>
+
+               </section>
+
+               <!-- =========================
+ABOUT SECTION
+========================= -->
+
+               <section class="about">
+
+                    <div class="container">
+
+                         <div class="about-wrapper">
+
+                              <div class="about-image">
+
+                                   <img src="images/83-600x400.jpg" alt="About Image">
+
+                              </div>
+
+                              <div class="about-content">
+
+                                   <h2>About Us</h2>
+
+                                   <p>
+                                        We help students and businesses learn modern web design
+                                        and development technologies step by step.
+                                   </p>
+
+                                   <p>
+                                        Learn HTML, CSS, Flexbox, Grid Layout, Responsive Design
+                                        and WordPress CMS professionally.
+                                   </p>
+
+                                   <a href="#" class="about-btn">
+                                        Read More
+                                   </a>
+
+                              </div>
+
+                         </div>
+
+                    </div>
+
+               </section>
+
+               <!-- =========================
+FEATURES SECTION
+========================= -->
+
+               <section class="features">
+
+                    <div class="container">
+
+                         <div class="section-title">
+
+                              <h2>Website Features</h2>
+
+                              <p>
+                                   Modern and professional website features.
+                              </p>
+
+                         </div>
+
+                         <div class="features-wrapper">
+
+                              <div class="feature-box">
+
+                                   <i class="fas fa-bolt"></i>
+
+                                   <h3>Fast Loading</h3>
+
+                                   <p>
+                                        Optimized website performance and speed.
+                                   </p>
+
+                              </div>
+
+                              <div class="feature-box">
+
+                                   <i class="fas fa-laptop-code"></i>
+
+                                   <h3>Clean Code</h3>
+
+                                   <p>
+                                        Well-structured and semantic HTML & CSS code.
+                                   </p>
+
+                              </div>
+
+                              <div class="feature-box">
+
+                                   <i class="fas fa-shield-alt"></i>
+
+                                   <h3>Secure Website</h3>
+
+                                   <p>
+                                        Secure and professional website structure.
+                                   </p>
+
+                              </div>
+
+                              <div class="feature-box">
+
+                                   <i class="fas fa-globe"></i>
+
+                                   <h3>SEO Friendly</h3>
+
+                                   <p>
+                                        Search engine optimized website structure.
+                                   </p>
+
+                              </div>
+
+                         </div>
+
+                    </div>
+
+               </section>
+
+               <!-- =========================
+PORTFOLIO SECTION
+========================= -->
+
+               <section class="portfolio">
+
+                    <div class="container">
+
+                         <div class="section-title">
+
+                              <h2>Our Portfolio / Projects</h2>
+
+                              <p>
+                                   Some of our recent web design and development projects.
+                              </p>
+
+                         </div>
+
+                         <div class="portfolio-wrapper">
+
+                              <div class="portfolio-card">
+
+                                   <img src="images/p3.jpeg" alt="Project 1">
+
+                                   <div class="portfolio-content">
+
+                                        <h3>Business Website</h3>
+
+                                        <p>
+                                             Modern responsive business website design.
+                                        </p>
+
+                                   </div>
+
+                              </div>
+
+                              <div class="portfolio-card">
+
+                                   <img src="images/p1.jpeg" alt="Project 2">
+
+                                   <div class="portfolio-content">
+
+                                        <h3>E-Commerce Website</h3>
+
+                                        <p>
+                                             Professional online shopping website layout.
+                                        </p>
+
+                                   </div>
+
+                              </div>
+
+                              <div class="portfolio-card">
+
+                                   <img src="images/p2.jpeg" alt="Project 3">
+
+                                   <div class="portfolio-content">
+
+                                        <h3>Portfolio Website</h3>
+
+                                        <p>
+                                             Creative personal portfolio website design.
+                                        </p>
+
+                                   </div>
+
+                              </div>
+
+                         </div>
+
+                    </div>
+
+               </section>
+
+               <!-- =========================
+TEAM SECTION
+========================= -->
+
+               <section class="team">
+
+                    <div class="container">
+
+                         <div class="section-title">
+
+                              <h2>Our Team</h2>
+
+                              <p>
+                                   Meet our professional web development team.
+                              </p>
+
+                         </div>
+
+                         <div class="team-wrapper">
+
+                              <div class="team-card">
+
+                                   <img src="images/team1.jpeg" alt="Team Member">
+
+                                   <h3>John Smith</h3>
+
+                                   <p>Web Developer</p>
+
+                                   <div class="team-social">
+
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                                   </div>
+
+                              </div>
+
+                              <div class="team-card">
+
+                                   <img src="images/team2.jpeg" alt="Team Member">
+
+                                   <h3>Sarah Johnson</h3>
+
+                                   <p>UI/UX Designer</p>
+
+                                   <div class="team-social">
+
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                                   </div>
+
+                              </div>
+
+                              <div class="team-card">
+
+                                   <img src="images/team3.jpeg" alt="Team Member">
+
+                                   <h3>David Miller</h3>
+
+                                   <p>SEO Expert</p>
+
+                                   <div class="team-social">
+
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                                   </div>
+
+                              </div>
+
+                         </div>
+
+                    </div>
+
+               </section>
+
+               <!-- =========================
+TESTIMONIAL SECTION
+========================= -->
+
+               <section class="testimonial">
+
+                    <div class="container">
+
+                         <div class="section-title">
+
+                              <h2>Client Testimonials</h2>
+
+                              <p>
+                                   What our clients say about our services.
+                              </p>
+
+                         </div>
+
+                         <div class="testimonial-wrapper">
+
+                              <div class="testimonial-card">
+
+                                   <p>
+                                        "Excellent website design and professional support service."
+                                   </p>
+
+                                   <h3>Michael Brown</h3>
+
+                                   <span>Business Owner</span>
+
+                              </div>
+
+                              <div class="testimonial-card">
+
+                                   <p>
+                                        "Very clean coding structure and responsive layout design."
+                                   </p>
+
+                                   <h3>Emma Wilson</h3>
+
+                                   <span>Freelancer</span>
+
+                              </div>
+
+                              <div class="testimonial-card">
+
+                                   <p>
+                                        "Highly recommended for modern web development solutions."
+                                   </p>
+
+                                   <h3>Daniel Clark</h3>
+
+                                   <span>Company Manager</span>
+
+                              </div>
+
+                         </div>
+
+                    </div>
+
+               </section>
+               <!-- =========================
+COUNTER / STATISTICS SECTION
+========================= -->
+
+               <section class="counter">
+
+                    <div class="container">
+
+                         <div class="counter-wrapper">
+
+                              <div class="counter-box">
+
+                                   <i class="fas fa-users"></i>
+
+                                   <h2>1200+</h2>
+
+                                   <p>Happy Clients</p>
+
+                              </div>
+
+                              <div class="counter-box">
+
+                                   <i class="fas fa-code"></i>
+
+                                   <h2>350+</h2>
+
+                                   <p>Projects Completed</p>
+
+                              </div>
+
+                              <div class="counter-box">
+
+                                   <i class="fas fa-award"></i>
+
+                                   <h2>15+</h2>
+
+                                   <p>Years Experience</p>
+
+                              </div>
+
+                              <div class="counter-box">
+
+                                   <i class="fas fa-globe"></i>
+
+                                   <h2>50+</h2>
+
+                                   <p>Worldwide Clients</p>
+
+                              </div>
+
+                         </div>
+
+                    </div>
+
+               </section>
+
+               <!-- =========================
+BLOG SECTION
+========================= -->
+
+               <section class="blog">
+
+                    <div class="container">
+
+                         <div class="section-title">
+
+                              <h2>Latest Blog Posts</h2>
+
+                              <p>
+                                   Read our latest web design and development articles.
+                              </p>
+
+                         </div>
+
+                         <div class="blog-wrapper">
+
+                              <div class="blog-card">
+
+                                   <img src="images/blog1.jpeg" alt="Blog Image">
+
+                                   <div class="blog-content">
+
+                                        <span>Web Design</span>
+
+                                        <h3>
+                                             Modern Responsive Website Design Tips
+                                        </h3>
+
+                                        <p>
+                                             Learn professional responsive website design
+                                             techniques using HTML and CSS.
+                                        </p>
+
+                                        <a href="#">
+                                             Read More
+                                        </a>
+
+                                   </div>
+
+                              </div>
+
+                              <div class="blog-card">
+
+                                   <img src="images/blog2.jpeg" alt="Blog Image">
+
+                                   <div class="blog-content">
+
+                                        <span>CSS Layout</span>
+
+                                        <h3>
+                                             Flexbox vs CSS Grid Layout
+                                        </h3>
+
+                                        <p>
+                                             Understand the differences between Flexbox
+                                             and CSS Grid for modern layouts.
+                                        </p>
+
+                                        <a href="#">
+                                             Read More
+                                        </a>
+
+                                   </div>
+
+                              </div>
+
+                              <div class="blog-card">
+
+                                   <img src="images/blog3.jpeg" alt="Blog Image">
+
+                                   <div class="blog-content">
+
+                                        <span>Development</span>
+
+                                        <h3>
+                                             Beginner Guide to Responsive Web Design
+                                        </h3>
+
+                                        <p>
+                                             Step-by-step guide for creating mobile-friendly
+                                             websites professionally.
+                                        </p>
+
+                                        <a href="#">
+                                             Read More
+                                        </a>
+
+                                   </div>
+
+                              </div>
+
+                         </div>
+
+                    </div>
+
+               </section>
+
+               <!-- =========================
+CALL TO ACTION SECTION
+========================= -->
+
+               <section class="cta">
+
+                    <div class="container">
+
+                         <div class="cta-content">
+
+                              <h2>
+                                   Ready To Build Your Modern Website?
+                              </h2>
+
+                              <p>
+                                   Start learning professional web design and development today.
+                              </p>
+
+                              <a href="#" class="cta-btn">
+
+                                   Get Started Now
+
+                              </a>
+
+                         </div>
+
+                    </div>
+
+               </section>
+               <!-- =========================
+PARTNER / CLIENT LOGOS SECTION
+========================= -->
+
+               <section class="clients">
+
+                    <div class="container">
+
+                         <div class="section-title">
+
+                              <h2>Our Partners & Clients</h2>
+
+                              <p>
+                                   Trusted by companies and businesses worldwide.
+                              </p>
+
+                         </div>
+
+                         <div class="clients-wrapper">
+
+                              <div class="client-logo">
+                                   <img src="images/client1.jpeg" alt="Client Logo">
+                              </div>
+
+                              <div class="client-logo">
+                                   <img src="images/client2.jpeg" alt="Client Logo">
+                              </div>
+
+                              <div class="client-logo">
+                                   <img src="images/client4.jpeg" alt="Client Logo">
+                              </div>
+
+                              <div class="client-logo">
+                                   <img src="images/client5.jpeg" alt="Client Logo">
+                              </div>
+
+                              <div class="client-logo">
+                                   <img src="images/client7.jpeg" alt="Client Logo">
+                              </div>
+
+                              <div class="client-logo">
+                                   <img src="images/client8.jpeg" alt="Client Logo">
+                              </div>
+
+                         </div>
+
+                    </div>
+
+               </section>
+
+          </div>
+
+          <!-- RIGHT SIDEBAR -->
+
+          <aside class="sidebar">
+
+               <div class="sidebar-widget">
+
+                    <h3>About Website</h3>
+
+                    <p>
+                         Learn modern responsive web design using
+                         HTML, CSS, Flexbox and Grid Layout.
+                    </p>
+
+               </div>
+
+               <div class="sidebar-widget">
+
+                    <h3>Latest Posts</h3>
+
+                    <ul>
+
+                         <li><a href="#">Responsive Design</a></li>
+
+                         <li><a href="#">CSS Grid Tutorial</a></li>
+
+                         <li><a href="#">Flexbox Layout</a></li>
+
+                         <li><a href="#">Mega Menu Design</a></li>
+
+                    </ul>
+
+               </div>
+
+               <div class="sidebar-widget">
+
+                    <h3>Advertisement</h3>
+
+                    <img src="images/blog1.jpeg" alt="Ad Image">
+
+               </div>
+
+          </aside>
+
+     </div>
+
+     <!-- =========================
+FOOTER SECTION
+========================= -->
+
+     <footer class="footer">
+
+          <div class="container">
+
+               <div class="footer-wrapper">
+
+                    <!-- FOOTER ABOUT -->
+
+                    <div class="footer-column">
+
+                         <h3>MyWebsite</h3>
+
+                         <p>
+                              Modern responsive website design and development
+                              services for students and businesses.
+                         </p>
+
+                         <div class="footer-social">
+
+                              <a href="#">
+                                   <i class="fab fa-facebook-f"></i>
+                              </a>
+
+                              <a href="#">
+                                   <i class="fab fa-twitter"></i>
+                              </a>
+
+                              <a href="#">
+                                   <i class="fab fa-linkedin-in"></i>
+                              </a>
+
+                              <a href="#">
+                                   <i class="fab fa-youtube"></i>
+                              </a>
+
+                         </div>
+
+                    </div>
+
+                    <!-- QUICK LINKS -->
+
+                    <div class="footer-column">
+
+                         <h3>Quick Links</h3>
+
+                         <ul>
+
+                              <li><a href="#">Home</a></li>
+
+                              <li><a href="#">About</a></li>
+
+                              <li><a href="#">Services</a></li>
+
+                              <li><a href="#">Portfolio</a></li>
+
+                              <li><a href="#">Contact</a></li>
+
+                         </ul>
+
+                    </div>
+
+                    <!-- SERVICES -->
+
+                    <div class="footer-column">
+
+                         <h3>Services</h3>
+
+                         <ul>
+
+                              <li><a href="#">Web Design</a></li>
+
+                              <li><a href="#">Web Development</a></li>
+
+                              <li><a href="#">SEO Optimization</a></li>
+
+                              <li><a href="#">Responsive Design</a></li>
+
+                              <li><a href="#">UI/UX Design</a></li>
+
+                         </ul>
+
+                    </div>
+
+                    <!-- CONTACT INFO -->
+
+                    <div class="footer-column">
+
+                         <h3>Contact Info</h3>
+
+                         <p>📍 Dhaka, Bangladesh</p>
+
+                         <p>📞 +880 1234-567890</p>
+
+                         <p>📧 info@example.com</p>
+
+                    </div>
+
+               </div>
+
+               <!-- FOOTER BOTTOM -->
+
+               <div class="footer-bottom">
+
+                    <p>
+                         © 2026 MyWebsite. All Rights Reserved.
+                    </p>
+
+               </div>
+
+          </div>
+
+     </footer>
+</body>
+
+</html>
