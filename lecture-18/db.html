@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Responsive Dashboard</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="css/db.css">
+
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <div class="logo">
+
+                <h2>WebTech</h2>
+
+            </div>
+
+            <ul class="menu">
+
+                <li class="active">
+                    <a href="#">
+                        <i class="fas fa-home"></i>
+                        Dashboard
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-user"></i>
+                        Profile
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-book"></i>
+                        Courses
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-chart-line"></i>
+                        Analytics
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-cog"></i>
+                        Settings
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-sign-out-alt"></i>
+                        Logout
+                    </a>
+                </li>
+
+            </ul>
+
+        </aside>
+
+        <!-- MAIN CONTENT -->
+
+        <main class="main-content">
+
+            <!-- TOP BAR -->
+
+            <header class="topbar">
+
+                <div class="search-box">
+
+                    <i class="fas fa-search"></i>
+
+                    <input
+                    type="text"
+                    placeholder="Search here...">
+
+                </div>
+
+                <div class="topbar-right">
+
+                    <i class="fas fa-bell"></i>
+
+                    <img
+                    src="https://i.pravatar.cc/100"
+                    alt="Profile">
+
+                </div>
+
+            </header>
+
+            <!-- DASHBOARD CARDS -->
+
+            <section class="cards">
+
+                <div class="card">
+
+                    <i class="fas fa-users"></i>
+
+                    <div>
+
+                        <h3>1,250</h3>
+
+                        <p>Students</p>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <i class="fas fa-book-open"></i>
+
+                    <div>
+
+                        <h3>85</h3>
+
+                        <p>Courses</p>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <i class="fas fa-chart-line"></i>
+
+                    <div>
+
+                        <h3>75%</h3>
+
+                        <p>Progress</p>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <i class="fas fa-dollar-sign"></i>
+
+                    <div>
+
+                        <h3>$12K</h3>
+
+                        <p>Revenue</p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- TABLE SECTION -->
+
+            <section class="table-section">
+
+                <div class="table-header">
+
+                    <h2>Recent Students</h2>
+
+                    <button>View All</button>
+
+                </div>
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Name</th>
+                            <th>Course</th>
+                            <th>Status</th>
+                            <th>Progress</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>John Doe</td>
+                            <td>HTML & CSS</td>
+                            <td>Active</td>
+                            <td>85%</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Sarah Khan</td>
+                            <td>JavaScript</td>
+                            <td>Active</td>
+                            <td>70%</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Michael Lee</td>
+                            <td>React JS</td>
+                            <td>Pending</td>
+                            <td>45%</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Emma Watson</td>
+                            <td>PHP & MySQL</td>
+                            <td>Completed</td>
+                            <td>100%</td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
