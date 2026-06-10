@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <title>Responsive Website Layout</title>
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+     <link rel="stylesheet" href="css/about.css">
+
+</head>
+
+<body>
+
+     <!-- =========================
+     TOPBAR
+========================= -->
+
+     <div class="topbar">
+
+          <div class="container topbar-content">
+
+               <div class="top-left">
+                    📧 info@example.com
+               </div>
+
+               <div class="top-middle">
+
+                    <ul class="top-menu">
+                         <li><a href="#">Office Category</a></li>
+                         <li>
+
+                              <a href="#">
+                                   Quick Links
+                                   <i class="fas fa-chevron-down"></i>
+                              </a>
+
+                              <ul class="dropdown">
+
+                                   <li><a href="#">Notice</a></li>
+
+                                   <li><a href="#">Admission</a></li>
+
+                                   <li><a href="#">Result</a></li>
+
+                                   <li><a href="#">Gallery</a></li>
+
+                              </ul>
+
+                         </li>
+                         <li><a href="#">Institute Category</a></li>
+                    </ul>
+
+               </div>
+
+               <div class="top-right">
+
+                    <span class="top-phone">
+                         📞 +880 1234-567890
+                    </span>
+
+                    <!-- SEARCH BOX -->
+                    <div class="top-search">
+
+                         <input type="text" placeholder="Search...">
+
+                         <i class="fas fa-search"></i>
+
+                    </div>
+                    <!-- <div class="top-search">
+
+          <input type="text" placeholder="Search...">
+
+          <button>
+               <i class="fas fa-search"></i>
+          </button>
+
+     </div> -->
+
+                    <!-- LOGIN BUTTON -->
+
+                    <a href="login.html" class="login-btn">
+
+                         <i class="fas fa-user"></i>
+                         Login
+
+                    </a>
+
+               </div>
+
+          </div>
+
+     </div>
+
+     <!-- =========================
+     HEADER
+========================= -->
+
+     <header>
+
+          <div class="container header-content">
+
+               <!-- LOGO -->
+
+               <div class="logo">
+                    MyWebsite
+               </div>
+
+               <!-- MOBILE BUTTON -->
+
+               <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+               <label for="menu-toggle" class="hamburger">
+
+                    <i class="fas fa-bars"></i>
+
+               </label>
+
+               <!-- NAVIGATION -->
+
+               <nav>
+
+                    <ul class="main-menu">
+
+                         <li><a href="index.html">Home</a></li>
+
+                         <li class="mega-parent">
+
+                              <a href="about.html">
+                                   About US
+                                   <i class="fas fa-chevron-down"></i>
+                              </a>
+
+                              <!-- MEGA MENU -->
+
+                              <div class="mega-menu">
+
+                                   <div class="mega-column">
+
+                                        <h3>Web Design</h3>
+
+                                        <ul>
+
+                                             <li><a href="#">HTML</a></li>
+
+                                             <li><a href="#">CSS</a></li>
+
+                                             <li><a href="#">Flexbox</a></li>
+
+                                             <li><a href="#">Grid Layout</a></li>
+
+                                        </ul>
+
+                                   </div>
+
+                                   <div class="mega-column">
+
+                                        <h3>Development</h3>
+
+                                        <ul>
+
+                                             <li><a href="#">JavaScript</a></li>
+
+                                             <li><a href="#">React</a></li>
+
+                                             <li><a href="#">PHP</a></li>
+
+                                             <li><a href="#">Laravel</a></li>
+
+                                        </ul>
+
+                                   </div>
+
+                                   <div class="mega-column">
+
+                                        <h3>Marketing</h3>
+
+                                        <ul>
+
+                                             <li><a href="#">SEO</a></li>
+
+                                             <li><a href="#">Facebook Ads</a></li>
+
+                                             <li><a href="#">YouTube</a></li>
+
+                                             <li><a href="#">Content Writing</a></li>
+
+                                        </ul>
+
+                                   </div>
+
+                                   <div class="mega-column">
+
+                                        <h3>Support</h3>
+
+                                        <ul>
+
+                                             <li><a href="#">Documentation</a></li>
+
+                                             <li><a href="#">Tutorials</a></li>
+
+                                             <li><a href="#">Help Center</a></li>
+
+                                             <li><a href="#">Contact Us</a></li>
+
+                                        </ul>
+
+                                   </div>
+
+                              </div>
+
+                         </li>
+
+                         <li><a href="gallery.html">gallery</a></li>
+
+                         <li><a href="blog.html">Blog</a></li>
+                         <li><a href="page.html">Single Blog </a></li>
+                         <li><a href="news.html">Latest News </a></li>
+                         <li><a href="contact.html">Contact</a></li>
+
+                    </ul>
+
+               </nav>
+
+          </div>
+
+     </header>
+
+
+
+     <section class="page-banner">
+          <div class="container">
+               <h1>About Us</h1>
+               <p>Learn more about our company and services.</p>
+          </div>
+     </section>
+
+     <div class="main-layout container">
+
+          <!-- MAIN CONTENT -->
+          <div class="main-content">
+
+               <!-- ABOUT COMPANY -->
+               <section class="about-page">
+
+                    <div class="about-page-wrapper">
+
+                         <div class="about-page-image">
+                              <img src="images/about.jpg" alt="About Us">
+                         </div>
+
+                         <div class="about-page-content">
+
+                              <h2>Who We Are</h2>
+
+                              <p>
+                                   We are a professional web design and development company
+                                   dedicated to helping students, freelancers, and businesses
+                                   build modern websites.
+                              </p>
+
+                              <p>
+                                   Our mission is to provide high-quality web solutions using
+                                   HTML, CSS, JavaScript, Bootstrap, WordPress, and modern
+                                   development technologies.
+                              </p>
+
+                              <p>
+                                   We believe in creating responsive, user-friendly, and
+                                   professional websites that help our clients grow online.
+                              </p>
+
+                         </div>
+
+                    </div>
+
+               </section>
+
+               <!-- OUR MISSION -->
+               <section class="mission">
+
+                    <h2>Our Mission</h2>
+
+                    <p>
+                         To provide quality web education and professional website
+                         development services that help people succeed in the digital world.
+                    </p>
+
+               </section>
+
+               <!-- OUR VALUES -->
+               <section class="values">
+
+                    <h2>Our Core Values</h2>
+
+                    <div class="values-wrapper">
+
+                         <div class="value-box">
+                              <i class="fas fa-lightbulb"></i>
+                              <h3>Innovation</h3>
+                              <p>We embrace modern technologies and creative solutions.</p>
+                         </div>
+
+                         <div class="value-box">
+                              <i class="fas fa-users"></i>
+                              <h3>Teamwork</h3>
+                              <p>We work together to achieve outstanding results.</p>
+                         </div>
+
+                         <div class="value-box">
+                              <i class="fas fa-award"></i>
+                              <h3>Quality</h3>
+                              <p>We focus on delivering high-quality services.</p>
+                         </div>
+
+                    </div>
+
+               </section>
+
+          </div>
+          <!-- RIGHT SIDEBAR -->
+          <aside class="sidebar">
+
+               <div class="sidebar-widget">
+
+                    <h3>About Website</h3>
+
+                    <p>
+                         Learn modern responsive web design using
+                         HTML, CSS, Flexbox and Grid Layout.
+                    </p>
+
+               </div>
+
+               <div class="sidebar-widget">
+
+                    <h3>Latest Posts</h3>
+
+                    <ul>
+
+                         <li><a href="#">Responsive Design</a></li>
+
+                         <li><a href="#">CSS Grid Tutorial</a></li>
+
+                         <li><a href="#">Flexbox Layout</a></li>
+
+                         <li><a href="#">Mega Menu Design</a></li>
+
+                    </ul>
+
+               </div>
+
+               <div class="sidebar-widget">
+
+                    <h3>Advertisement</h3>
+
+                    <img src="images/blog1.jpeg" alt="Ad Image">
+
+               </div>
+
+          </aside>
+
+     </div>
+     <!-- RIGHT SIDEBAR -->
+
+
+
+     <!-- =========================
+FOOTER SECTION
+========================= -->
+
+     <footer class="footer">
+
+          <div class="container">
+
+               <div class="footer-wrapper">
+
+                    <!-- FOOTER ABOUT -->
+
+                    <div class="footer-column">
+
+                         <h3>MyWebsite</h3>
+
+                         <p>
+                              Modern responsive website design and development
+                              services for students and businesses.
+                         </p>
+
+                         <div class="footer-social">
+
+                              <a href="#">
+                                   <i class="fab fa-facebook-f"></i>
+                              </a>
+
+                              <a href="#">
+                                   <i class="fab fa-twitter"></i>
+                              </a>
+
+                              <a href="#">
+                                   <i class="fab fa-linkedin-in"></i>
+                              </a>
+
+                              <a href="#">
+                                   <i class="fab fa-youtube"></i>
+                              </a>
+
+                         </div>
+
+                    </div>
+
+                    <!-- QUICK LINKS -->
+
+                    <div class="footer-column">
+
+                         <h3>Quick Links</h3>
+
+                         <ul>
+
+                              <li><a href="#">Home</a></li>
+
+                              <li><a href="#">About</a></li>
+
+                              <li><a href="#">Services</a></li>
+
+                              <li><a href="#">Portfolio</a></li>
+
+                              <li><a href="#">Contact</a></li>
+
+                         </ul>
+
+                    </div>
+
+                    <!-- SERVICES -->
+
+                    <div class="footer-column">
+
+                         <h3>Services</h3>
+
+                         <ul>
+
+                              <li><a href="#">Web Design</a></li>
+
+                              <li><a href="#">Web Development</a></li>
+
+                              <li><a href="#">SEO Optimization</a></li>
+
+                              <li><a href="#">Responsive Design</a></li>
+
+                              <li><a href="#">UI/UX Design</a></li>
+
+                         </ul>
+
+                    </div>
+
+                    <!-- CONTACT INFO -->
+
+                    <div class="footer-column">
+
+                         <h3>Contact Info</h3>
+
+                         <p>📍 Dhaka, Bangladesh</p>
+
+                         <p>📞 +880 1234-567890</p>
+
+                         <p>📧 info@example.com</p>
+
+                    </div>
+
+               </div>
+
+               <!-- FOOTER BOTTOM -->
+
+               <div class="footer-bottom">
+
+                    <p>
+                         © 2026 MyWebsite. All Rights Reserved.
+                    </p>
+
+               </div>
+
+          </div>
+
+     </footer>
+</body>
+
+</html>
